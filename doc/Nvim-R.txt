@@ -1364,10 +1364,10 @@ with lower values in your |vimrc|. Example:
    let R_rconsole_width = 57
    let R_min_editor_width = 18
 <
-If you always prefer a horizontal split, set high values such as these:
+If you always prefer a horizontal split, set the value of `R_rconsole_width`
+to 0:
 >
-   let R_rconsole_width = 160
-   let R_min_editor_width = 360
+   let R_rconsole_width = 0
 <
 For a horizontal split, you can set the number of lines of the R window:
 >
